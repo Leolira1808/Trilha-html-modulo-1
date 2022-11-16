@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Página - Módulo I - Primeiros Passos com HTML</title>
+  </head>
+  <body>
+    <h1>Página - Módulo I - Primeiros Passos com HTML</h1>
+    <hr />
+
+    <h2 id="indice">Índice</h2>
+
+    <ul>
+      <li><a href="#historia">História dos computadores</a></li>
+      <li>
+        <a href="#clients">O que são <i>Clients</i>?</a>
+      </li>
+      <li>
+        <a href="#server">O que são <i>Servers</i>?</a>
+      </li>
+      <li><a href="#estrutura">Como é uma estrutura básica de um HTML?</a></li>
+      <li>
+        <a href="#diferenca"
+          >Entendendo a diferença entre listas ordenadas e não ordenadas</a
+        >
+      </li>
+      <li><a href="#link">Links de referências</a></li>
+    </ul>
+    <hr />
+    <h2 id="historia">História e Evolução dos Computadores</h2>
+    <smal><a href="#indice">Índice</a></smal>
+    <p>
+      A evolução dos computadores acompanhou a evolução da sociedade durante os
+      séculos XX e XXI. Entretanto, a história do computador não teve início
+      apenas na modernidade. Lembre-se que os computadores são aparelhos
+      eletrônicos que recebem, armazenam e produzem informações de maneira
+      automática. Eles fazem parte do nosso cotidiano, sendo cada vez maior o
+      número de computadores usados no mundo.
+    </p>
+    <h3>História do Computador</h3>
+    <p>
+      A palavra “computador” vem do verbo “computar” que, por sua vez, significa
+      “calcular”. Sendo assim, podemos pensar que a criação de computadores
+      começa na idade antiga, já que a relação de contar já intrigava os homens.
+      Dessa forma, uma das primeiras máquinas de computar foi o “ábaco”,
+      instrumento mecânico de origem chinesa criado no século V a.C. Assim, ele
+      é considerado o “primeiro computador”, uma espécie de calculadora que
+      realizava operações algébricas. No século XVII, o matemático escocês John
+      Napier foi um dos responsáveis pela invenção da "régua de cálculo".
+      Trata-se do primeiro instrumento analógico de contagem capaz de efetuar
+      cálculos logaritmos. Essa invenção foi considerada a mãe das calculadoras
+      modernas. Por volta de 1640, o matemático francês Pascal inventou a
+      primeira máquina de calcular automática. Essa máquina foi sendo
+      aperfeiçoada nas décadas seguintes até chegar no conceito que conhecemos
+      hoje. A primeira calculadora de bolso capaz de efetuar os quatro
+      principais cálculos matemáticos, foi criada por Gottfried Wilhelm Leibniz.
+      Esse matemático alemão desenvolveu o primeiro sistema de numeração binário
+      moderno que ficou conhecido com "Roda de Leibniz".
+    </p>
+    <div>
+      <img
+        src="https://static.todamateria.com.br/upload/ro/da/rodacalculo.jpg"
+        alt="Roda de Leibniz"
+      />
+      <h5><i>Roda de Leibniz</i></h5>
+    </div>
+    <p>
+      A primeira máquina mecânica programável foi introduzida pelo matemático
+      francês Joseph-Marie Jacquard. Tratava-se de um tipo de tear capaz de
+      controlar a confecção dos tecidos através de cartões perfurados. George
+      Boole (1815-1864) foi um dos fundadores da lógica matemática. Essa nova
+      área da matemática, se tornou uma poderosa ferramenta no projeto e estudo
+      de circuitos eletrônicos e arquitetura de computadores. Já no século XIX,
+      o matemático inglês Charles Babbage criou uma máquina analítica que, a
+      grosso modo, é comparada com o computador atual com memória e programas.
+      Através dessa invenção, alguns estudiosos o consideram o
+      <strong>“Pai da Informática”</strong>. Assim, as máquinas de computar
+      foram cada vez mais incluindo a variedade de cálculos matemáticos (adição,
+      subtração, divisão, multiplicação, raiz quadrada, logaritmos, etc).
+      Evolução dos Computadores O computador, tal qual conhecemos hoje, passou
+      por diversas transformações e foi se aperfeiçoando ao longo do tempo,
+      acompanhando o avanço das áreas da matemática, engenharia, eletrônica. É
+      por isso que não existe somente um inventor. De acordo com os sistemas e
+      ferramentas utilizados, a história da computação está dividida em quatro
+      períodos.
+    </p>
+
+    <h4>Primeira Geração (1951-1959)</h4>
+    <p>
+      <strong
+        >Os computadores de primeira geração funcionavam por meio de circuitos e
+        válvulas eletrônicas</strong
+      >. Possuíam o uso restrito, além de serem imensos e consumirem
+      <u>muita energia</u>.
+    </p>
+    <p>
+      Um exemplo é o ENIAC (Eletronic Numerical Integrator and Computer) que
+      consumia cerca de 200 quilowatts e possuía 19.000 válvulas.
+    </p>
+
+    <img
+      src="https://static.todamateria.com.br/upload/en/ia/eniaccomputador.jpg?auto_optimize=low"
+      alt="ENIAC (Eletronic Numerical Integrator and Computer)"
+    />
+    <h5><i>ENIAC (Eletronic Numerical Integrator and Computer)</i></h5>
+
+    <h4>Segunda Geração (1959-1965)</h4>
+
+    <p>
+      Ainda com dimensões muito grandes, os
+      <strong
+        >computadores da segunda geração funcionavam por meio de
+        transistores</strong
+      >, os quais substituíram <u>as válvulas</u> que eram maiores e mais
+      lentas. Nesse período já começam a se espalhar o uso comercial.
+    </p>
+    <img
+      src="https://static.todamateria.com.br/upload/se/gu/segundageracao.jpg?auto_optimize=low"
+      alt="Computador da segunda geração com transistores"
+    />
+    <h5><i>Computador da segunda geração com transistores</i></h5>
+
+    <h4>Terceira Geração (1965-1975)</h4>
+    <p>
+      <strong
+        >Os computadores da terceira geração funcionavam por circuitos
+        integrados</strong
+      >. Esses substituíram os <u>transistores</u> e já apresentavam uma
+      dimensão menor e maior capacidade de processamento.<br />
+      Foi nesse período que os
+      <strong
+        ><mark><i>chips</i></mark></strong
+      >
+      foram criados e a utilização de computadores pessoais começou.
+    </p>
+
+    <img
+      src="https://static.todamateria.com.br/upload/te/rc/terceirageracao.jpg?auto_optimize=low"
+      alt="Computador da terceira geração com circuitos integrados"
+    />
+    <h5><i>Computador da terceira geração com circuitos integrados</i></h5>
+
+    <h4>Quarta Geração (1975-até os dias atuais)</h4>
+    <p>
+      Com o desenvolvimento da tecnologia da informação, os computadores
+      diminuem de tamanho, aumentam a velocidade e capacidade de processamento
+      de dados. São incluídos os microprocessadores com gasto cada vez menor de
+      energia.<br /><br />
+      Nesse período, mais precisamente a partir da década de 90, há uma grande
+      expansão dos computadores pessoais.
+    </p>
+    <img
+      src="https://static.todamateria.com.br/upload/co/mp/computadorquartageracao.jpg?auto_optimize=low"
+      alt="computador da quarta geração"
+    />
+    <h5><i>computador da quarta geração</i></h5>
+    <hr />
+    <p>
+      Além disso, surgem os softwares integrados e a partir da virada do
+      milênio, começam a surgir os computadores de mão. Ou seja, os smartphones,
+      iPod, iPad e tablets, que incluem conexão móvel com navegação na web.
+    </p>
+    <img
+      src="https://static.todamateria.com.br/upload/56/13/5613f67821641-historia-e-evolucao-dos-computadores.jpg?auto_optimize=low"
+      alt="Evolução dos computadores"
+    />
+    <p>
+      Segundo a classificação acima, nós pertencemos à quarta geração dos
+      computadores, o que revela uma evolução incrível nos sistemas de
+      informação.<br />Um ponto de destaque é que a evolução dos computadores
+      ocorria de maneira mais lenta. Com o desenvolvimento da sociedade, meios
+      de comunicação e a divulgação científica podemos ver a evolução dessas
+      máquinas em dias ou meses.<br />Alguns estudiosos preferem acrescentar a
+      <strong><i>“Quinta Geração de Computadores”</i></strong> com o
+      aparecimento dos supercomputadores, utilizados por grandes corporações
+      como a NASA.<br />Nessa geração, é possível avaliar a evolução da
+      tecnologia multimídia, da robótica e da internet.
+    </p>
+    <h4>Inclusão Digital</h4>
+    <p>
+      A inclusão digital é um conceito que determina o acesso aos meios e
+      ferramentas digitais contemporâneos, tal qual a internet.<br />Ela visa a
+      democratização da tecnologia a partir da possibilidade de produção e
+      difusão do conhecimento para todos os cidadãos.
+    </p>
+
+    <h4>História da Internet: quem criou e quando surgiu</h4>
+    <p>
+      A <strong>história da internet</strong> começa no ambiente da Guerra Fria
+      (1945-1991). As duas super potências envolvidas, Estados Unidos e União
+      Soviética, estavam divididas nos blocos socialista e capitalista e
+      disputavam poderes e hegemonias.
+    </p>
+
+    <h4>Arpanet e a origem da internet</h4>
+    <p>
+      Com o intuito de facilitar a troca de informações, pois temiam ataques dos
+      soviéticos, o Departamento de Defesa dos Estados Unidos (ARPA - Advanced
+      Research Projects Agency) criou um sistema de compartilhamento de
+      informações entre pessoas distantes geograficamente, a fim de facilitar as
+      estratégias de guerra. Nesse momento, surge o protótipo da primeira rede
+      de internet, a Arpanet (Advanced Research Projects Agency Network). Assim,
+      no dia 29 de outubro de 1969 foi estabelecida a
+      <strong>primeira conexão</strong> entre a
+      <mark>Universidade da Califórnia</mark> e o
+      <mark>Instituto de Pesquisa de Stanford</mark>. Foi um momento histórico,
+      uma vez que o primeiro e-mail foi enviado.
+    </p>
+
+    <h4>Criação do www</h4>
+    <p>
+      Já na década de 90, o cientista, físico e professor britânico Tim
+      Berners-Lee desenvolveu um navegador ou browser, a World Wide Web (www), a
+      Rede Mundial de Computadores - Internet. Sua criação é responsável por
+      apresentar ao mundo o modo como utilizamos a internet atualmente.
+      Portanto, apesar de não ter sido o inventor da conexão entre computadores
+      geograficamente distantes (a já citada Arpanet), foi o britânico quem
+      desenvolveu o modelo que acessamos cotidianamente. A partir disso, a
+      década de 90 ficou conhecida como o "boom da internet", pois foi quando
+      ela se popularizou pelo mundo. Essa popularização aconteceu com o
+      surgimento de novos browsers ou navegadores e o aumento do número de
+      usuários, navegadores da internet.
+    </p>
+
+    <p>Exemplos de navegadores da época:</p>
+    <ul>
+      <li>Internet Explorer;</li>
+    </ul>
+    <ul>
+      <li>Netscape;</li>
+    </ul>
+    <ul>
+      <li>Mozilla Firefox;</li>
+    </ul>
+    <ul>
+      <li>Google Chrome;</li>
+    </ul>
+    <ul>
+      <li>Opera;</li>
+    </ul>
+    <ul>
+      <li>Lynx.</li>
+    </ul>
+
+    <p>
+      Diante disso, ocorreu uma grande proliferação de sites, chats, redes
+      sociais, como Orkut, Facebook, MSN e Twitter, tornando a internet a rede
+      ou teia global de computadores conectados. Alguns estudiosos acreditam que
+      a Internet foi um marco importante e decisivo na evolução tecnológica.
+      Isso porque ultrapassou barreiras ao aproximar pessoas, culturas, mundos e
+      informações. Fato este que, segundo eles, não acontecia desde a chegada da
+      televisão, na década de 50. Hoje em dia, a Internet é utilizada
+      mundialmente como ferramenta de trabalho, diversão, comunicação, educação,
+      informação. Por isso, é comum ouvir: "eu não vivo sem internet". Além
+      disso, pelo fato de os impostos serem menores, muitos produtos são
+      comercializados em sites de compras.
+    </p>
+
+    <h4>Internet no Brasil</h4>
+    <p>
+      No Brasil, a Internet surgiu no final da década de 80, quando as
+      universidades brasileiras começam a compartilhar algumas informações com
+      os Estados Unidos. Entretanto, foi a partir de 1989, quando se fundou a
+      Rede Nacional de Ensino e Pesquisa (RNP), que o projeto de divulgação e
+      acesso ganhou força. O intuito principal era difundir a tecnologia da
+      Internet pelo Brasil e facilitar a troca de informações e pesquisas. Em
+      1997, criou-se as "redes locais de conexão" expandindo, dessa forma, o
+      acesso a todo território nacional. Em 2011, segundo dados do Ministério da
+      Ciência e Tecnologia, aproximadamente 80% da população teve acesso à
+      internet. Isso corresponde a 60 milhões de computadores em uso.
+    </p>
+
+    <h4>Grandes nomes da Tecnologia</h4>
+    <strong
+      ><i><li>Grace Murray</li> </i></strong
+    >
+    <p>
+      Conquistou títulos como “a incrível Grace Hopper”, “Rainha da Computação”,
+      “Rainha da Codificação”, “vovó do COBOL” e “Grande Dama do Software”.
+      Hopper foi uma analista de sistemas da Marinha dos Estados Unidos nas
+      décadas de 1940 e 1950, e enquanto atuava por lá desenvolveu a linguagem
+      de programação Flow-Matic, que foi a primeira delas a ser adaptada para o
+      idioma inglês. Essa linguagem, apesar de já extinta, serviu como base para
+      a criação do COBOL (Common Business Oriented Language) – usado até os dias
+      de hoje em processamento de bancos de dados comerciais. E, por isso, mesmo
+      que ela não tenha participado efetivamente da criação dessa linguagem de
+      programação, Grace Hopper ficou conhecida como a “vovó do COBOL” por ter
+      desenvolvido a base para sua criação. Por conta de sua relevância, Hopper
+      foi convidada para integrar o subcomitê que desenvolveu as especificações
+      da linguagem COBOL em uma reunião que aconteceu em 1959 no Pentágono. Além
+      da analista da Marinha, fizeram parte do comitê outras seis pessoas: dois
+      especialistas da IBM, outros dois da RCA e mais dois da Sylvania Electric
+      Products. Grace Hopper também é apontada como a autora do termo “bug”, que
+      usamos até os dias de hoje para designar uma falha em códigos-fonte. A
+      invenção do termo teria surgido quando Grace tentava encontrar onde estava
+      um problema em seu computador. Quando o descobriu, ela teria visto um
+      inseto morto dentro da máquina – e acabou chamando o problema de “bug”
+      que, em português, significa “inseto”. Grace Hopper nasceu em Nova Iorque
+      em 1906 e era a mais velha de três irmãos. Sendo uma criança inteligente e
+      curiosa, estimulada pelos pais a estudar com as mesmas oportunidades de
+      seus irmãos homens, aos sete anos desvendou o funcionamento de um
+      despertador. A partir daí, seu interesse pelas ciências exatas só cresceu,
+      até que a futura analista de sistemas se graduou em Matemática e Física em
+      1928, concluindo seu mestrado na Universidade de Yale em 1930. Alguns anos
+      depois, com o Ph.D em Matemática conquistado, Hopper teve sua dissertação
+      “Novos Critérios de Irredutibilidade” publicada e então começou a ensinar
+      Matemática em instituições especializadas. Na década de 1940, Hopper foi
+      uma das mulheres voluntárias para o WAVES (Women Accepted for Volunteer
+      Emergency Service), uma divisão da Reserva Naval dos Estados Unidos que
+      era constituída exclusivamente por mulheres. Nesse projeto, ela foi
+      designada para trabalhar como tenente júnior em um projeto computacional,
+      em que pôde analisar e escrever artigos sobre o computador Mark I – também
+      conhecido como “Calculadora Automática Controlada por Sequência”. Nessa
+      época Hopper pediu para ser transferida para a Marinha regular, mas seu
+      pedido foi recusado e ela continuou servindo na Reserva da Marinha,
+      permanecendo no Laboratório de Computação de Harvard até 1949. Após sair
+      do laboratório de Harvard, Hopper tornou-se funcionária da Eckert-Mauchly
+      Computer como matemática sênior, sendo integrante da equipe de
+      desenvolvimento do UNIVAC I (“Universal Automatic Computer”, ou
+      “Computador Automático Universal”). Esse foi o primeiro computador
+      comercial fabricado e comercializado nos Estados Unidos. Custando mais de
+      um milhão de dólares, foram fabricados e vendidas 46 unidades do UNIVAC I
+      para empresas de grande porte como a General Electric, por exemplo, e
+      algumas delas permaneceram em funcionamento por muitos anos – uma unidade
+      do UNIVAC I foi utilizada até 1970 por uma companhia de seguros. No
+      Brasil, o UNIVAC foi um dos primeiros computadores a chegarem por aqui,
+      sendo adquirido pelo IBGE em 1961 por quase 3 milhões de dólares para
+      processar dados do censo. Depois do sucesso do UNIVAC I, Grace Hopper
+      desenvolveu seu próprio compilador – um programa de computador que cria
+      outros programas a partir de um código-fonte escrito em uma linguagem
+      compilada. Na prática, ele traduz um programa de uma linguagem textual
+      para uma linguagem de máquina, e em 1952 a analista de sistemas tinha seu
+      próprio compilador rodando em uma época em que a crença geral era a de que
+      computadores eram capazes apenas de fazer aritmética. Em 1954, Grace
+      Hopper foi nomeada a primeira diretora de programação automática da
+      companhia onde trabalhava, e seu departamento foi responsável por divulgar
+      algumas das primeiras linguagens de programação baseadas em compiladores.
+      Em 1973, Hopper foi nomeada capitã da Marinha norteamericana e
+      aposentou-se em 1986 como contra-almirante. Entre os inúmeros prêmios que
+      recebeu, estão mais de 40 doutorados honoris causa, a medalha de Serviço
+      Distinto da Defesa e a Medalha Nacional de Tecnologia. Ela ainda foi
+      homenageada ao ver um destróier da Marinha sendo batizado com seu nome.
+      Além disso, também recebeu a primeira edição do prêmio “Homem do Ano” da
+      Ciência da Computação conferido pela Associação de Gerenciamento de
+      Processamento de Dados, tornando-se a primeira mulher (e primeiro cidadão
+      americano) a ser nomeada Distinguished Fellow pela British Computer
+      Society. Grace Hopper faleceu em janeiro de 1992 aos 85 anos de idade. Por
+      ser uma mulher cuja relevância em seu setor é inegável, desde 1994 é
+      realizado em sua honra o congresso Grace Hopper Celebration of Women in
+      Computing, que anualmente celebra os feitos das mulheres no mundo da
+      computação.
+    </p>
+    <strong
+      ><i><li>Joseph Carl Robnett Licklider</li> </i></strong
+    >
+    <p>
+      Em 1962, o cientista americano Joseph Carl Robnett Licklider, do MIT,
+      propôs pela primeira vez, uma rede global de computadores. A partir do MIT
+      - Massachussets Institute of Technology, em Agosto de 1962, Licklider
+      começou a discutir o conceito da «Rede Galáctica». Esta rede previa vários
+      computadores distribuídos globalmente, ligados entre si por uma rede. Por
+      meio deste sistema de computadores em rede, poder-se-ia aceder a dados e a
+      programas a partir de de qualquer desses computadores, rapidamente. Em
+      essência, este conceito é parecido com a Internet de hoje. Biografia
+      Licklider nasceu em Saint-Louis em 1915. Frequentou a Washington State
+      University em Saint Louis aonde recebeu três bacharelatos: em Física,
+      Matemática e Psicologia. Fez o seu doutoramento em Psicoacústica (a
+      Psicofisiologia do sistema auditivo). A partir de 1942 trabalhou no
+      Harvard Psychoacustic Laboratory, pesquisando para a Força Aérea dos EUA,
+      procurando soluções para o problema de comunicações que afectava os
+      tripulantes dos barulhentos bombardeiros. O projecto SAGE Em 1950
+      transferiu-se para o MIT, onde teve o seu primeiro contacto com a
+      computação dessa época. Trabalhou num projecto da Guerra Fria chamado
+      SAGE, cujo objectivo era criar defesas anti-aéreas por radar, geridas por
+      computador, contra os bombardeiros soviéticos. Tratava-se de calcular
+      rapidamente a trajectória das aeronaves inimigas. (SAGE = Semi Automatic
+      Ground Environment) Consola de operações do sistema militar SAGE Licklider
+      ficou interessado na computação a partir daí. A computação desse tempo era
+      o "batch-processing". Este processamento funcionava da seguinte maneira:
+      os problemas eram delineados, as operações necessárias para resorve-los
+      eram codificadas em punchcards, que depois eram introduzidas nos
+      computadores em «fornadas» (batch). Todo este processo era muito moroso, e
+      se alguma das variáveis mudasse, ou não fosse planeada logo desde início,
+      todo o processo teria de ser reiniciado. Licklider havia visto que a
+      computação poderia ser diferente, mais eficiente — ao trabalhar no
+      projecto SAGE, já que este computador funcionava em tempo real. A
+      informação era introduzida no computador e os resultados ficavam
+      disponíveis quase imediatamente. Licklider apercebeu-se que o
+      desenvolvimento teria de seguir estas coordenadas para que os computadores
+      se tornassem máquinas realmente úteis. Licklider foi o primeiro gestor do
+      programa de pesquisa de computador do DARPA, começando em Outubro de 1962.
+      SAGE Computer Room Enquanto trabalhando neste projecto, ele convenceu os
+      seus sucessores Ivan Sutherland, Bob Taylor e Lawrence G. Roberts da
+      importância do conceito de computadores liagados por redes. Em 1960,
+      Licklider publicou a sua obra de referência Man Computer Symbiosis. A
+      ideia principal era permitir aos homens e computadores cooperarem na
+      tomada de decisões e controlarem situações complexas sem uma dependência
+      inflexível de programas predeterminados. É claro que Licklider se referia
+      a uma computação em tempo real e interactiva. Os computadores fariam
+      rapidamente e eficientemente o trabalho de rotina. A velocidade de
+      processamento e interfaces avançadas permitiriam ao utilizador interagir
+      com os computadores na tomada de decisões em vez de simplesmente esperarem
+      que a máquina providenciasse resultados. Este género de computação
+      significaria que os problemas não teriam de ser formulados
+      aprofundadamente, os computadores seriam capazes de responder a variáveis
+      em mudança. A computação de Licklider não usaria o "batch processing" mas
+      sim o método de partilha do tempo (time sharing), que fornece aos
+      utilizadores de muitos terminais acesso a uma "mainframe" - interacção
+      directa com o computador. Os resultados são obtidos imediatamente. O "Man
+      Computer Symbiosis" foi inspirado numa experiência informal que Licklider
+      conduziu sobre si próprio. Decidiu anotar de que maneira o seu tempo no
+      trabalho era utilizado.
+    </p>
+
+    <strong
+      ><i><li>Robert E. Kahn</li> </i></strong
+    >
+    <p>
+      Robert Elliot Kahn é um famoso cientista da computação americano,
+      engenheiro e pioneiro da Internet. Junto com Vinton G. Cerf, ele
+      desenvolveu o Transmission Control Protocol (TCP) e o Internet Protocol
+      (IP), os protocolos de comunicação padrão e a base sobre a qual a Internet
+      moderna foi construída. Kahn é considerado um dos arquitetos fundamentais
+      da Internet. Em 1964, Kahn obteve um Ph.D. da Universidade de Princeton.
+      Em 1972, ele começou a trabalhar para Lawrence Roberts no Information
+      Processing Techniques Office (IPTO) da ARPA. A experiência de trabalho
+      deu-lhe a confiança para pensar sobre a necessidade de um modelo de rede
+      de arquitetura aberta, em que cada rede pudesse se comunicar com outros
+      sistemas independentes com configuração individual de software e hardware.
+      Kahn estabeleceu quatro objetivos para projetar a arquitetura que mais
+      tarde se tornaria o Protocolo de Controle de Transmissão (TCP):
+      Conectividade de rede: qualquer tipo de rede pode se conectar facilmente a
+      outra rede usando um gateway. Distribuição: Isso aconteceria sem qualquer
+      administração de rede central. Recuperação de erros: os pacotes perdidos
+      podem ser retransmitidos. Design da caixa preta: Não haveria alterações
+      internas em uma rede para que ela se conectasse a outras redes. Em 1973,
+      Vint Cerf juntou-se à Kahn no projeto e eles foram capazes de concluir a
+      versão inicial do TCP. Posteriormente, este protocolo foi dividido em duas
+      camadas individuais, ou seja, TCP e IP. Normalmente, esses dois são
+      chamados de TCP / IP.
+    </p>
+
+    <strong
+      ><i><li>Tim Berners-Lee</li> </i></strong
+    >
+    <p>
+      Timothy John Berners-Lee nasceu em Londres, Inglaterra, em 8 de junho de
+      1955. Ele é um físico britânico, cientista da computação e professor do
+      MIT (Instituto de Tecnologia de Massachusetts, em inglês). Seu cargo mais
+      conhecido é ser o criador da World Wide Web, o famoso termo técnico WWW.
+      Tim frequentou o The Queen’s College, em Oxford, entre 1973 e 1976, onde
+      obteve um diploma em física. Em 1980 enquanto atuava como contratante
+      independente do CERN (Organização Europeia para a Pesquisa Nuclear) propôs
+      um projeto baseado no conceito de hipertexto para facilitar a partilha e
+      atualização de informações entre os pesquisadores. Depois de deixar o CERN
+      em 1980 trabalhou em outra empresa até 1984, em que retornou para a
+      organização. Em 1989, Berners-Lee viu a oportunidade de unir hipertexto
+      com internet e criar a World Wide Web. O primeiro site foi construído no
+      CERN e foi ao ar em 1991 e era uma página simples de texto que oferecia
+      uma explicação sobre o que era a World Wide Web, como alguém poderia criar
+      um navegador, configurar um servidor web, etc. Em 1994, fundou o World
+      Wide Web Consortium (W3C) no MIT. É composto por várias empresas que
+      estavam dispostas a criar normas e recomendações para melhorar a qualidade
+      na web. Em 2004, aceitou uma cadeira de Ciência da Computação da Faculdade
+      de Eletrônica e Ciências da Computação da Universidade de Southampton, na
+      Inglaterra, para trabalhar no projeto Web semântica. Em 2009, foi
+      anunciado que o físico trabalharia com o governo britânico para ajudar a
+      tornar os dados mais abertos e acessíveis na Web.
+    </p>
+
+    <strong
+      ><i><li>Marc Andreessen</li> </i></strong
+    >
+    <p>
+      Marc Andreessen nasceu em 9 de julho de 1971, em Cedar Falls, nos Estados
+      Unidos. Ele recebeu o bacharelado em ciências da computação pela
+      Universidade de Illinois, em 1993. Ele estagiou durante um verão na IBM,
+      em Austin, no Texas. Além disso, também trabalhou no Centro Nacional para
+      Aplicativos de Supercomputação. Por lá, Marc Andreessen se adaptou com o
+      ViolaWWW criado por Pei-Yuan Wei, que era baseado nos padrões abertos da
+      World Wide Web de Tim Berners-Lee. Estes navegadores antigos de Internet
+      eram criados para funcionar apenas com as antigas e caras estações de
+      trabalho em Unix. Foi então que Andreessen e Eric Bina trabalharam juntos
+      para criar um navegador que fosse mais amigável, melhor e com gráficos que
+      funcionasse em PCs. O código resultante tornou-se o Mosaic, um navegador
+      Web acessível que integrava gráficos e podia funcionar em diferentes
+      categorias de computadores. Ele foi disponibilizado ao público a partir de
+      1993.Após sua graduação na Universidade em 1993, Marc Andreessen mudou-se
+      para o estado da Califórnia, para trabalhar na companhia Enterprise
+      Integration Technologies. Foi assim que ele conheceu Jim Clark, fundador
+      da empresa Silicon Graphics. Ambos fundaram em 1994 a Mosaic
+      Communications Corporation. Em novembro do mesmo ano, eles renomearam para
+      Netscape Communications, e o seu navegador tornou-se o Netscape Navigator.
+      O objetivo, nesse caso, era evitar conflitos legais com o National Center
+      for Supercomputing Applications (NCSA) da Universidade de Illinois. O
+      sucesso do Netscape chamou a atenção da Microsoft, que reconheceu o
+      potencial da rede e queria se colocar à frente da crescente revolução da
+      Internet. A Microsoft licenciou o código-fonte do Mosaic da Spyglass, da
+      Universidade de Illinois. Assim, o transformou no Internet Explorer e a
+      batalha resultante entre as duas empresas ficou conhecida como a guerra
+      dos navegadores. Posteriormente, a Microsoft eventualmente tornou-se a
+      vencedora. No ano de 1999, a Netscape é adquirida pela gigante AOL, pela
+      quantia de US$ 4,2 bilhões. Embora Marc Andreessen tenha mantido um alto
+      cargo na empresa, ele abandonou a empresa pouco tempo depois para fundar
+      outra, a Loudcloud, que se dedica à hospedagem de websites.
+    </p>
+
+    <strong
+      ><i><li>Bill Gates</li> </i></strong
+    >
+    <p>
+      Bill Gates e a Microsoft, empresa que ele fundou junto com Paul Allen em
+      1975, moldaram a forma que hoje nos relacionamos com tecnologia e
+      computadores. A revolução provocada pela adoção em massa de
+      microcomputadores só foi possível graças à facilidade de uso dos sistemas
+      desenvolvidos pela empresa, como o sistema operacional Windows e o pacote
+      Office. Foi o sucesso à frente da Microsoft que levou Bill Gates ao topo
+      da lista de bilionários, à custa de muitas madrugadas em claro, durante as
+      quais ele e seus parceiros de negócios escreveram os softwares da
+      companhia. Todo esse trabalho aliado a uma boa dose de agressividade nos
+      negócios e jogadas arriscadas. Depois de décadas à frente da companhia,
+      Gates decidiu se afastar, deixando a empresa nas mãos de sucessores mais
+      próximos aos novos desafios da tecnologia. Mas isso não significa que ele
+      tenha se aposentado. Longe disso. Pai de três filhos, Bill Gates se
+      envolveu em causas filantrópicas ao redor do mundo. Ele e sua esposa
+      Melinda passaram a se dedicar a tentar resolver problemas globais de
+      saúde, como a erradicação de doenças e acessibilidade de sistemas de
+      saneamento. Juntos, eles comandam a mais rica fundação global de
+      filantropia, com cerca de US$ 50 bilhões de verba usada em projetos
+      sociais. Gates deu um passo além na caridade e montou, com seu amigo
+      bilionário Warren Buffett, uma campanha global para que super-ricos doem
+      grande parte de sua fortuna para causas sociais.William Henry Gates III,
+      ou Bill Gates, é o filho do meio de uma família bem-sucedida de Seattle.
+      Seu pai era advogado, conselheiro em diversas organizações civis e
+      filantropo, autor do livro Desperte para a vida – Reflexões sobre a benção
+      de existir. Dele, Bill herdou o nome, a dedicação aos livros e o lado
+      filantropo. De sua mãe, Mary, veio a competitividade e o tino para os
+      negócios. Ela se formou em administração de empresas e teve assento em
+      conselhos de administração de grandes companhias, muitas vezes como a
+      única mulher à mesa. Mary sempre esteva presente no dia a dia dos filhos
+      e, frequentemente, isso gerava desentendimentos entre ela e o filho. A
+      criança sorridente – apelidada de Happy Boy – desafiava a mãe em longas
+      discussões que acabaram levando a família para a terapia.Estudioso no
+      estilo nerd, algo de que já disse se orgulhar, Bill Gates costumava ficar
+      muito tempo lendo em seu quarto bagunçado e responder que estava ocupado
+      ‘pensando’ quando sua mãe o chamava para alguma tarefa. Até os 12 anos,
+      ele estudou em um colégio público de sua cidade. Nessa idade, foi colocado
+      em uma escola particular somente para meninos. Uma certa dose de rebeldia
+      fez o garoto cogitar boicotar a prova de admissão para, propositalmente,
+      não ser aprovado. Mas seu espírito competitivo falou mais alto. Ele fez a
+      prova – e passou.Foi nessa escola, o Colégio Lakeside, que Bill Gates
+      conheceu um garoto dois anos mais velho, que havia criado um clube de
+      programação e o convidou para fazer parte. O garoto se chama Paul Allen,
+      que viria a ser, alguns anos depois, cofundador da Microsoft. O colégio,
+      vendo o potencial e o interesse de Gates, deu acesso aos computadores e o
+      liberou de algumas aulas para estudar programação. Nos computadores do
+      colégio, Gates escreveu seu primeiro código: um jogo da velha no qual
+      humanos poderiam disputar contra uma máquina. Naquela época, a genialidade
+      de Bill Gates já era conhecida. Ele ganhou o primeiro lugar em uma
+      competição estadual de matemática em uma disputa que incluiu não apenas
+      crianças da sua idade, mas jovens até quatro anos mais velhos, que
+      cursavam o último ano do ensino médio. Premiações do tipo não surpreendiam
+      Bill Gates. Ele já tinha percebido anos antes que era um dos poucos que,
+      em sala, conseguia fazer contas matemáticas de cabeça. Era comum que fosse
+      o primeiro a terminar tarefas enquanto seus colegas reclamavam que não
+      tinham entendido nem o enunciado ainda. Também foi nessa mesma escola,
+      mais precisamente no laboratório de informática, que Gates conheceu aquele
+      com quem desenvolveu seus primeiros negócios: Kent Evans. Apesar de jovem,
+      Kent tinha interesse na área de negócios, carregava uma pasta com diversas
+      revistas sobre o assunto e despertou o interesse de Gates pelo tema. Kent
+      também fazia parte do Clube de Informática escolar e a fama dos estudantes
+      levou empresas a encomendarem serviços de programação. Um dos pedidos veio
+      de uma companhia local que precisava de um sistema para gerenciar o
+      pagamento de funcionários. Como Gates e Kent eram novos demais, Allen
+      decidiu retirá-los do projeto, mas foi alertado por seu futuro sócio de
+      que o problema matemático era grande demais e que, se precisasse, Gates
+      poderia voltar ao projeto. No entanto, apenas na condição de líder. Foi o
+      que ocorreu semanas depois. Quando, algum tempo depois, sua escola se
+      fundiu com outra unidade que era exclusiva para meninas, o próprio colégio
+      recorreu à dupla Gates e Kent para montar o calendário escolar dos alunos.
+      Com a ajuda de Allen e muitas noites dormidas na cama que levaram para o
+      laboratório, o grupo entregou o calendário escolar horas antes do início
+      do ano letivo. A dupla seguia inseparável até que foi interrompida de
+      maneira trágica. Após fazer um curso de escalada em rocha, Kent se
+      aventurou e sofreu um acidente. Ele não resistiu aos ferimentos da queda e
+      faleceu, prematuramente. Ao mesmo tempo, Gates e Allen começaram a ser
+      procurados para entregar mais programas para empresas locais. Outras
+      escolas se interessaram pelo sistema para gerar cronograma das aulas e a
+      dupla também desenvolveu o software de controle para o departamento de
+      trânsito local e para uma hidrelétrica. Formado no colégio, Allen convidou
+      Gates para desenvolverem o sistema de informática de uma empresa de água e
+      luz de Vancouver, no estado americano de Washington. Ainda um estudante do
+      ensino médio, Gates trancou o colégio por um semestre e seu mudou com
+      Allen para a cidade. Foi esse projeto que uniu a dupla que mudaria o rumo
+      dos computadores pessoais. A vida em Harvard Em 1973, aos 18 anos, Bill
+      Gates entrou em Harvard após tirar 1.590 de 1.600 pontos possíveis no SAT
+      (correspondente ao Enem nos EUA), uma nota alcançada por menos de 1% de
+      todos os jovens americanos. Ele se inscreveu para cursar matérias de
+      Direito, mas incluiu em seu plano de estudo matérias de matemática e
+      computação. No segundo ano da faculdade, Paul Allen mostrou a Gates a capa
+      da revista Popular Eletronic que estampava o primeiro microcomputador, o
+      Altair 8800. “Parecia que a revolução tinha começado sem a gente”, lembra
+      Bill Gates em um documentário sobre sua vida. Para não ficar de fora, eles
+      decidiram blefar. Ligaram para a Micro Instrumentation and Telemetry
+      Systems (MITS), criadora do microcomputador, e disseram que estavam
+      desenvolvendo um sistema para rodar na máquina. Só com a cara de pau e a
+      coragem, conseguiram uma reunião para apresentar seus programas. Mas havia
+      dois problemas: eles não tinham um Altair, nem tinham escrito nenhuma
+      linha de código. Com calendário apertado e já acostumados a virar noites
+      trabalhando, criaram o que haviam prometido. As últimas linhas de código
+      foram escritas à mão em um papel por Allen no voo a caminho da reunião.
+      Para a surpresa até dos jovens, o sistema rodou perfeitamente e a
+      apresentação foi um sucesso. Era a primeira vez que um software comercial
+      rodava em um computador pessoal. Nascia a Microsoft. Microsoft: fundação e
+      saída Contratados pela MITS para desenvolver o sistema que rodaria nos
+      Altair 8800, Paul Allen e Bill Gates montaram uma empresa em um sobrado em
+      Albuquerque, no estado americano do Novo México, e decidiram batizá-la com
+      a junção das palavras ‘microcomputer’ e ‘software’. A empresa foi
+      registrada oficialmente como Microsoft em novembro de 1976. O primeiro
+      sistema desenvolvido para a Altair 8800, o Microsoft’s Altair BASIC, vazou
+      e foi pirateado antes mesmo do seu lançamento. Consternado, Gates escreveu
+      uma carta aberta, expressando sua frustração com os entusiastas de
+      computador que estavam usando o software de sua empresa sem ter pago por
+      isso e defendeu que os desenvolvedores fossem remunerados por seu
+      trabalho. Esse era o primeiro capítulo de uma batalha que o seguiria por
+      toda a vida: contra a pirataria. Em 1980, a fama dos desenvolvedores da
+      Microsoft alcançou a IBM, então líder do mercado global de computadores
+      empresariais. A gigante planejava lançar seu microcomputador pessoal e
+      precisava de um sistema operacional e outros programas. Vendo a
+      oportunidade, a Gates e Allen compraram uma versão do DOS e a adaptaram
+      para vender para a IBM por uma tarifa de apenas US$ 50 mil. Era pouco
+      dinheiro para o que a IBM poderia pagar, mas a dupla estava interessada
+      também no prestígio de ter seu programa selecionado para rodar no IBM PC.
+      Com isso, a Microsoft foi catapultada para se tornar a líder global de
+      softwares e passou a ditar o rumo dos computadores pessoais.
+    </p>
+
+    <strong
+      ><i><li>Steve Jobs</li> </i></strong
+    >
+    <p>
+      Steven Paul Jobs, nascido no dia 24 de março de 1955 em São Francisco,
+      Califórnia, foi um dos fundadores da Apple junto com Steve Wozniak e Mike
+      Markkula. Ele é reconhecido como um dos maiores visionários e da história
+      da tecnologia pessoal. Filho biológico de Joanne Schieble Jandali Simpson
+      e Abdulfattah Jandali, Jobs teve 4 filhos: Lisa, sua primeira filha, com a
+      namorada Chrisann Brennan, e Erin, Eve e Reed com Laurene Powell Jobs, com
+      quem se casou em 2011. Steve Jobs foi criado por pais adotivos, Paul
+      Reinhold Jobs, mecânico, e Clara Hagopian Jobs, que o batizaram. A adoção
+      não ocorreu de forma harmônica, já que Joanne temia pelo futuro de Steve,
+      já que nenhum dos pais adotivos tinham completado o ensino superior e não
+      viviam grande situação financeira. O processo só foi completado apenas
+      quando Paul se compromete a enviar o filho para a faculdade. Em 1972, Jobs
+      sai de casa para morar com a namorada, Chrisann Brennan, contra a vontade
+      dos pais. No mesmo ano, ingressou na Reed College, universidade no estado
+      do Oregon, onde estudou formalmente por apenas seis meses. Ele ainda
+      frequentou o campus por mais 18 meses, com permissão para assistir a aulas
+      como observador. Entre eles, o curso de caligrafia, que o influenciou na
+      criação da tipografia do Macintosh. Seu primeiro emprego formal foi na
+      Atari em 1974 e depois em 1975 após uma viagem. Junto com Steve Wozniak,
+      desenvolveu uma versão do jogo Pong para apenas um jogador. Em 1976, deu o
+      passo que o consagrou na história. Foi quando ele fundou a Apple Inc, que
+      comercializava um computador pessoal desenvolvido por Wozniak pouco tempo
+      antes. O primeiro lote do Apple I, com apenas 50 unidades, foi vendido
+      para a Byte Shop por US$ 25 mil. O capital foi usado para instalar a
+      equipe da Apple em uma garagem. Posteriormente, a equipe lançou o bem
+      sucedido Apple II, que se provou um dos grandes sucessos da história dos
+      computadores pessoais. Steve Jobs foi forçado a sair da empresa pelas suas
+      excentricidades e personalidade forte em 1985, criando a NeXT logo na
+      sequência com dinheiro de seu próprio bolso. Seu novo negócio, apesar de
+      não ter tido grande sucesso, foi adquirido pela sua antiga companhia em
+      1997, o que o permitiu voltar a ser CEO da Apple em um momento de crise.
+      Jobs permaneceu no cargo até 2009, quando deixou o cargo para Tim Cook,
+      mas ainda com controle sobre decisões importantes da empresa. Morreu dois
+      anos depois, em 5 de outubro de 2011, por um câncer pancreático raro,
+      contra o qual lutava desde 2004.
+    </p>
+
+    <h2 id="clients">O que são <i>Clients</i>?</h2>
+    <smal><a href="#indice">Índice</a></smal>
+    <p>
+      Um cliente não compartilha qualquer de seus recursos, mas solicita um
+      conteúdo ou função do servidor. Os clientes iniciam sessões de comunicação
+      com os servidores que aguardam requisições de entrada
+    </p>
+
+    <h2 id="server">O que são <i>Servers</i>?</h2>
+    <smal><a href="#indice">Índice</a></smal>
+    <p>
+      Um servidor é um host que está executando um ou mais serviços ou programas
+      que compartilham recursos com os clientes.
+    </p>
+
+    <hr />
+    <h2 id="estrutura">Como é uma estrutura básica de um HTML?</h2>
+    <smal><a href="#indice">Índice</a></smal>
+    <p>
+      Um documento HTML válido precisa seguir obrigatoriamente a estrutura
+      composta pelas tags "html", head e body e a instrução !DOCTYPE. Esta
+      estrutura está informada em uma documentação que descreve todos os
+      detalhes do HTML, no caso as tags e atributos, e como os navegadores devem
+      considerar e interpretar estas tags, esta documentação é chamada de
+      "especificação do HTML", e através do que está declarado nela que é
+      possível entender se um documento HTML válido. Um documento HTML inválido
+      é carregado pelo navegador, porém em um "modo de compatibilidade". A tag
+      html> Na estrutura do nosso documento, antes de começar a colocar o
+      conteúdo, inserimos uma tag html>. Dentro dessa tag, é necessário declarar
+      outras duas tags: head> e body>. Essas duas tags são "irmãs", pois estão
+      no mesmo nível hierárquico em relação à sua tag "mãe", que é html>. A tag
+      head> contém informações sobre o documento HTML que são de interesse
+      somente do navegador e para outros serviços da web, e não para as pessoas
+      que vão acessar nosso site. São informações que não serão exibidas
+      diretamente no navegador, também podemos considerar um local onde
+      informamos os metadados sobre a página. A especificação do HTML obriga a
+      presença da tag de conteúdo "title" dentro da "head", permitindo definir o
+      título do documento, que poder ser visto na barra de título ou aba da
+      janela do navegador. Caso contrário, a página não será um documento HTML
+      válido. Outra configuração muito importante, principalmente em documentos
+      HTML cujo conteúdo é escrito em um idioma como o português, que contém
+      caracteres "especiais" (acentos e cedilha), é a codificação/conjunto de
+      caracteres, chamada de encoding ou charset. Podemos configurar qual
+      codificação queremos utilizar em nosso documento por meio da configuração
+      de charset na tag "meta". Um dos valores mais comuns usados hoje em dia é
+      o UTF-8, também chamado de Unicode. Há outras possibilidades, como o
+      latin1, muito usado antigamente. O UTF-8 é a recomendação atual para
+      encoding na Web por ser amplamente suportada em navegadores e editores de
+      código, além de ser compatível com praticamente todos os idiomas do mundo.
+      É o que usaremos no curso.
+      <!-- <strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas
+      palavras o que entendeu sobre o assunto. Não esqueça de colocar links para
+      outros sites e também de formatar o texto com <strong>negrito</strong>,
+      <i>itálico</i> e <u>sublinhado</u> quando necessário. -->
+    </p>
+    <p>
+      Não esqueça também de colocar o link para voltar até o índice. (Lembra das
+      âncoras?)
+    </p>
+    <hr />
+    <h2 id="diferenca">
+      Entendendo a diferença entre listas ordenadas e não ordenadas
+    </h2>
+    <smal><a href="#indice">Índice</a></smal>
+    <p>
+      A principal diferença entre a lista ordenada e a lista não-ordenada está
+      na maneira com que os itens de cada lista são apresentados - a lista
+      ordenada enumera os elementos; a lista não-ordenada coloca marcadores
+      antes de cada elemento. Uma lista ordenada é delimitada pelas etiquetas
+      'OL' e '/OL' (Ordered List). Cada item da lista é delimitado pelas
+      etiquetas 'LI' e '/LI' (List Item) A estrutura da lista não-ordenada é
+      semelhante a da lista ordenada - porém, ao invés de ser construída com o
+      elemento OL, é construída com o elemento UL (Unordered List).
+    </p>
+    <p>
+      Não esqueça também de colocar o link para voltar até o índice. (Lembra das
+      âncoras?)
+    </p>
+    <hr />
+    <h2 id="link">Links de referências</h2>
+    <smal><a href="#indice">Índice</a></smal>
+    <p>
+      <strong><u>INSTRUÇÕES:</u> </strong>Coloque links para outras páginas que
+      falam sobre estes assuntos. Não esquece de que precisa abrir em outra
+      aba/janela do navegador.
+    </p>
+
+    <ul>
+      <li><a href="http://dio.me" target="_blank">http://dio.me</a></li>
+      <li><a href="http://w3c.org" target="_blank">http://w3c.org</a></li>
+      <li>
+        <a
+          href="https://www.todamateria.com.br/historia-da-internet/"
+          target="_blank"
+          >https://www.todamateria.com.br/historia-da-internet/</a
+        >
+      </li>
+    </ul>
+  </body>
+</html>
