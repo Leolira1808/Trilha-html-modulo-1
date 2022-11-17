@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Página - Módulo I - Primeiros Passos com HTML</title>
   </head>
+  <style>
+    code {
+      background-color: #2e07074b;
+      padding: 0 0.2rem;
+    }
+  </style>
   <body>
     <h1>Página - Módulo I - Primeiros Passos com HTML</h1>
     <hr />
@@ -698,44 +704,39 @@
     <smal><a href="#indice">Índice</a></smal>
     <p>
       Um documento HTML válido precisa seguir obrigatoriamente a estrutura
-      composta pelas tags "html", head e body e a instrução !DOCTYPE. Esta
-      estrutura está informada em uma documentação que descreve todos os
+      composta pelas tags <code>&lt;html&gt;</code>, <code>&lt;head&gt;</code> e
+      <code>&lt;body&GT;</code> e a instrução <code>&lt;!DOCTYPE&gt;</code>.
+      Esta estrutura está informada em uma documentação que descreve todos os
       detalhes do HTML, no caso as tags e atributos, e como os navegadores devem
       considerar e interpretar estas tags, esta documentação é chamada de
       "especificação do HTML", e através do que está declarado nela que é
       possível entender se um documento HTML válido. Um documento HTML inválido
       é carregado pelo navegador, porém em um "modo de compatibilidade". A tag
-      html> Na estrutura do nosso documento, antes de começar a colocar o
-      conteúdo, inserimos uma tag html>. Dentro dessa tag, é necessário declarar
-      outras duas tags: head> e body>. Essas duas tags são "irmãs", pois estão
-      no mesmo nível hierárquico em relação à sua tag "mãe", que é html>. A tag
-      head> contém informações sobre o documento HTML que são de interesse
-      somente do navegador e para outros serviços da web, e não para as pessoas
-      que vão acessar nosso site. São informações que não serão exibidas
-      diretamente no navegador, também podemos considerar um local onde
-      informamos os metadados sobre a página. A especificação do HTML obriga a
-      presença da tag de conteúdo "title" dentro da "head", permitindo definir o
-      título do documento, que poder ser visto na barra de título ou aba da
-      janela do navegador. Caso contrário, a página não será um documento HTML
-      válido. Outra configuração muito importante, principalmente em documentos
-      HTML cujo conteúdo é escrito em um idioma como o português, que contém
-      caracteres "especiais" (acentos e cedilha), é a codificação/conjunto de
-      caracteres, chamada de encoding ou charset. Podemos configurar qual
-      codificação queremos utilizar em nosso documento por meio da configuração
-      de charset na tag "meta". Um dos valores mais comuns usados hoje em dia é
-      o UTF-8, também chamado de Unicode. Há outras possibilidades, como o
-      latin1, muito usado antigamente. O UTF-8 é a recomendação atual para
-      encoding na Web por ser amplamente suportada em navegadores e editores de
-      código, além de ser compatível com praticamente todos os idiomas do mundo.
-      É o que usaremos no curso.
-      <!-- <strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas
-      palavras o que entendeu sobre o assunto. Não esqueça de colocar links para
-      outros sites e também de formatar o texto com <strong>negrito</strong>,
-      <i>itálico</i> e <u>sublinhado</u> quando necessário. -->
-    </p>
-    <p>
-      Não esqueça também de colocar o link para voltar até o índice. (Lembra das
-      âncoras?)
+      <code>&lt;html&gt;</code> Na estrutura do nosso documento, antes de
+      começar a colocar o conteúdo, inserimos uma tag <code>&lt;html&gt;</code>.
+      Dentro dessa tag, é necessário declarar outras duas tags:
+      <code>&lt;head&gt;</code> e <code>&lt;body&GT;</code>. Essas duas tags são
+      "irmãs", pois estão no mesmo nível hierárquico em relação à sua tag "mãe",
+      que é <code>&lt;html&gt;</code>. A tag <code>&lt;head&gt;</code> contém
+      informações sobre o documento HTML que são de interesse somente do
+      navegador e para outros serviços da web, e não para as pessoas que vão
+      acessar nosso site. São informações que não serão exibidas diretamente no
+      navegador, também podemos considerar um local onde informamos os metadados
+      sobre a página. A especificação do HTML obriga a presença da tag de
+      conteúdo <code>&lt;title&gt;</code> dentro da <code>&lt;head&gt;</code>,
+      permitindo definir o título do documento, que poder ser visto na barra de
+      título ou aba da janela do navegador. Caso contrário, a página não será um
+      documento HTML válido. Outra configuração muito importante, principalmente
+      em documentos HTML cujo conteúdo é escrito em um idioma como o português,
+      que contém caracteres "especiais" (acentos e cedilha), é a
+      codificação/conjunto de caracteres, chamada de encoding ou charset.
+      Podemos configurar qual codificação queremos utilizar em nosso documento
+      por meio da configuração de charset na tag "meta". Um dos valores mais
+      comuns usados hoje em dia é o UTF-8, também chamado de Unicode. Há outras
+      possibilidades, como o latin1, muito usado antigamente. O UTF-8 é a
+      recomendação atual para encoding na Web por ser amplamente suportada em
+      navegadores e editores de código, além de ser compatível com praticamente
+      todos os idiomas do mundo.
     </p>
     <hr />
     <h2 id="diferenca">
@@ -747,8 +748,9 @@
       na maneira com que os itens de cada lista são apresentados - a lista
       ordenada enumera os elementos; a lista não-ordenada coloca marcadores
       antes de cada elemento. Uma lista ordenada é delimitada pelas etiquetas
-      'OL' e '/OL' (Ordered List). Cada item da lista é delimitado pelas
-      etiquetas 'LI' e '/LI' (List Item) A estrutura da lista não-ordenada é
+      <code>&lt;OL&gt;</code> e <code>&lt;/OL&gt;</code> (Ordered List). Cada
+      item da lista é delimitado pelas etiquetas <code>&lt;LI&gt;</code> e
+      <code>&lt;/LI&gt;</code> (List Item) A estrutura da lista não-ordenada é
       semelhante a da lista ordenada - porém, ao invés de ser construída com o
       elemento OL, é construída com o elemento UL (Unordered List).
     </p>
